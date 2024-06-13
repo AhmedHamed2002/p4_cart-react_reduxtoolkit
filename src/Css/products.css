@@ -1,0 +1,48 @@
+.column  .card{
+    height: 750px;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: solid  2px  rgb(30, 216, 220) ;
+    transition-duration: 0.9s;
+}
+
+.column .card:hover {
+    background-image:linear-gradient(to top , rgb(94, 91, 91)  , rgb(159, 159, 163) ,white ,white) ;  
+    transform: scale(0.9);
+}
+
+.card .img  {
+height: 250px ;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.card .img img {
+    width: 150px;
+    height: 150px;
+}
+
+.card .card-body {
+    height: 450px;
+    text-align: center;
+    overflow: hidden;
+}
+.card  .card-body .title {
+    color: rgb(30, 216, 220);
+    margin-bottom:20px ; 
+    height: 70px;
+    font-family: cursive;
+    overflow: hidden;
+}
+
+.card .card-body .text {
+    height: 240px;
+    overflow: hidden;
+}
+.card .card-body  .price {
+    color:  rgb(61, 192, 61) ;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: cursive;
+}
